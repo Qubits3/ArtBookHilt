@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">ArtBookHilt</string>
     <string name="add_art">Add Art</string>
+    <string name="art_image">Art Image</string>
+    <string name="art_name">Art Name:</string>
+    <string name="artist_name">Artist Name:</string>
+    <string name="year">Year:</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="name">Name</string>
+    <string name="enter_artist">Enter Artist</string>
+    <string name="enter_year">Enter Year</string>
+    <string name="save">Save</string>
+    <string name="search_image">Search Image</string>
+    <string name="art_book">Art Book</string>
 </resources>
