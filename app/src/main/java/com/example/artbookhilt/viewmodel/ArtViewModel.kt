@@ -9,9 +9,12 @@ import com.example.artbookhilt.model.ImageResponse
 import com.example.artbookhilt.repo.ArtRepositoryInterface
 import com.example.artbookhilt.roomdb.Art
 import com.example.artbookhilt.util.Resource
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
-class ArtViewModel @ViewModelInject constructor(
+@HiltViewModel
+class ArtViewModel @Inject constructor(
     private val repository: ArtRepositoryInterface
 ) : ViewModel() {
 
