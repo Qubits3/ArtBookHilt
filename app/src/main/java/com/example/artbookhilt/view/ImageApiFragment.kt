@@ -21,7 +21,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-class ImageApiFragment @Inject constructor(private val imageRecyclerAdapter: ImageRecyclerAdapter) :
+class ImageApiFragment @Inject constructor(val imageRecyclerAdapter: ImageRecyclerAdapter) :
     Fragment(R.layout.fragment_image_api) {
 
     private lateinit var binding: FragmentImageApiBinding
